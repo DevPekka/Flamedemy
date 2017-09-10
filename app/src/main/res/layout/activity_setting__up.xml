@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devpekka.flushdemy.Setting_Up">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/SettingUp_Header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="15dp"
+            android:text="Setting Up"
+            android:textAlignment="textStart"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/Setting_up_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Setting up Android Studio is fairly straightforward and is easier than ever thanks to nearly everything being bundled into one installer. The SDK manager and more. The only other thing you’ll need is the Java Development Kit. Remember, Android Studio is only really your window into Java! Note: Android Studio and the SDK are rather large, so make sure you have some space free on your C:\ drive before you get started." />
+
+        <ImageView
+            android:id="@+id/web"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/android_studio_web" />
+
+        <TextView
+            android:id="@+id/setting_up_subbody"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:text="Follow the simple instructions during installation and it should also set you up with an Android platform that you will be able to develop with as well. Be sure to tick the checkbox to tell the installer that you want the Android SDK as well and make a note of where Android Studio itself and the SDK are being installed. These are the defaults that it selected for my installation:" />
+
+        <ImageView
+            android:id="@+id/installer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/installer" />
+
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/setting_up_final"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Pick a directory for the SDK that has no spaces in it. Note that the AppData folder that Android Studio has selected here is a hidden folder in Windows. That means you’ll need to select ‘Show Hidden Folders’ if you want to browse to it using the explorer." />
+    </LinearLayout>
+
+</ScrollView>

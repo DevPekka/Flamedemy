@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="devpekka.flushdemy.SettingUp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/start"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/starting_a_new_project"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textColor="@android:color/black"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:id="@+id/start_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/once_android_studio_is_up_and_running_you_ll_want_to_dive_in_and_create_a_new_project_you_can_do_this_by_launching_android_studio_and_then_selecting_new_project_or_you_can_choose_file_new_new_project_at_any_time_from_the_ide_itself" />
+
+        <ImageView
+            android:id="@+id/select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/new_pro" />
+
+        <TextView
+            android:id="@+id/start_sub_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/you_ll_then_have_the_opportunity_to_choose_from_a_number_of_different_types_of_activity_activities_are_effectively_screens_in_an_app_in_some_cases_this_will_be_the_entire_app_or_in_others_your_app_might_transition_from_one_screen_to_the_next_you_re_free_to_start_a_new_project_with_no_activity_in_which_case_you_would_choose_add_no_activity_but_you_ll_almost_always_want_one_so_it_s_easier_to_let_android_studio_set_you_up_with_something_resembling_a_blank_app_template_to_begin_with" />
+
+        <ImageView
+            android:id="@+id/sdk_select"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/sdk" />
+
+        <TextView
+            android:id="@+id/sd_select_body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:text="Choose your Minimal SDK, lower SDK more device will supported, but don't select the Latest SDK" />
+
+        <ImageView
+            android:id="@+id/select_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/select" />
+
+        <TextView
+            android:id="@+id/choose_activity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="9dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="9dp"
+            android:text="@string/choose_activity" />
+    </LinearLayout>
+
+</ScrollView>

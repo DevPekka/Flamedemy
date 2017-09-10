@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "268195648034",
+    "firebase_url": "https://flamedemy-app.firebaseio.com",
+    "project_id": "flamedemy-app",
+    "storage_bucket": "flamedemy-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:268195648034:android:c4a7f03b9858bf8c",
+        "android_client_info": {
+          "package_name": "devpekka.flushdemy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "268195648034-eiv3obg66l8lghtk33488vk8im4m7ae8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "devpekka.flushdemy",
+            "certificate_hash": "94223103e46f8b6da06957ff2d87fb8ac81b4f26"
+          }
+        },
+        {
+          "client_id": "268195648034-9o27rd5p7lrq6jtafjpmiulgato30gvg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY_zhL_sI41rbirTcgKh4RCmiJ-_u2qzs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "268195648034-9o27rd5p7lrq6jtafjpmiulgato30gvg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

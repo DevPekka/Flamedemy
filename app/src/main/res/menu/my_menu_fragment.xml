@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item android:title="Navigation">
+            <menu>
+                <item
+                    android:id="@+id/feedback"
+                    android:title="Feedback"
+                    android:icon="@mipmap/ic_launcher"
+                    app:showAsAction="never"/>
+                <item
+                    android:id="@+id/about"
+                    android:title="About"
+                    android:icon="@mipmap/ic_launcher"
+                    app:showAsAction="never"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
